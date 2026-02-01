@@ -1,0 +1,3 @@
+Contact: mailto:rinacaswatiherlin@gmail.com
+Preferred-Languages: id, en
+Policy: https://<username>.github.io/coda-site/privacy.html
