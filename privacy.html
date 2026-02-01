@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy — Coda</title>
+  <meta name="description" content="Kebijakan Privasi untuk aplikasi Coda (offline)." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <a class="brand" href="index.html" aria-label="Coda home">
+        <img src="assets/img/mark.svg" alt="Coda mark" />
+        <div>
+          <div class="brandTitle">Coda</div>
+          <div class="tag">Privacy Policy</div>
+        </div>
+      </a>
+      <nav class="navlinks" aria-label="Primary">
+        <a href="privacy.html" aria-current="page">Privacy</a>
+        <a href="data-deletion.html">Data deletion</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <h2>Kebijakan Privasi</h2>
+      <p><small class="muted">Efektif: <span id="d"></span></small></p>
+
+      <p>
+        Kebijakan ini menjelaskan bagaimana <b>idcoda</b> (“kami”) menangani data saat kamu menggunakan aplikasi <b>Coda</b>.
+        Coda didesain <b>offline-first</b> dan tidak memerlukan akun.
+      </p>
+
+      <h3>Ringkasan</h3>
+      <ul>
+        <li><b>Tidak ada data pengguna yang dikumpulkan</b> oleh aplikasi untuk tujuan analitik/iklan.</li>
+        <li><b>Tidak ada data yang dibagikan</b> ke pihak ketiga oleh kami.</li>
+        <li>Semua task & rencana kamu <b>tersimpan lokal di perangkat</b>.</li>
+      </ul>
+
+      <h3>Data yang Dikumpulkan</h3>
+      <p>
+        <b>Coda tidak mengumpulkan</b> data pribadi, lokasi, kontak, atau aktivitas untuk pelacakan.
+        Kami tidak menanamkan SDK iklan atau SDK analitik pihak ketiga dalam aplikasi.
+      </p>
+
+      <h3>Data yang Kamu Simpan di Perangkat</h3>
+      <p>
+        Aplikasi menyimpan data berikut <b>secara lokal</b> untuk berfungsi:
+      </p>
+      <ul>
+        <li>Task, tag, deadline, dan status</li>
+        <li>Daily plan (time blocks)</li>
+        <li>Scorecard / statistik produktivitas (ringkasan lokal)</li>
+      </ul>
+      <p>
+        Data ini berada di storage aplikasi di perangkatmu dan tidak dikirim ke server kami.
+      </p>
+
+      <h3>Pembelian Dalam Aplikasi (Jika Kamu Upgrade Pro)</h3>
+      <p>
+        Jika kamu membeli versi Pro, transaksi diproses oleh <b>Google Play</b>.
+        Kami <b>tidak menerima</b> informasi kartu pembayaran kamu.
+        Kami hanya menerima status pembelian/entitlement dari Google Play untuk membuka fitur Pro.
+      </p>
+
+      <h3>Email Support</h3>
+      <p>
+        Jika kamu menghubungi kami via email, kamu akan memberikan informasi secara sukarela (misalnya alamat email dan isi pesan).
+        Informasi tersebut digunakan <b>hanya</b> untuk menanggapi permintaan bantuan dan peningkatan layanan.
+      </p>
+
+      <h3>Penyimpanan & Retensi</h3>
+      <ul>
+        <li>Data produktivitas di aplikasi: tersimpan lokal sampai kamu menghapusnya.</li>
+        <li>Email support: disimpan seperlunya untuk menyelesaikan tiket/permintaan.</li>
+      </ul>
+
+      <h3>Keamanan</h3>
+      <p>
+        Karena data utama tersimpan di perangkat, keamanan juga bergantung pada pengamanan perangkatmu
+        (PIN/biometrik, enkripsi perangkat, dsb).
+      </p>
+
+      <h3>Penghapusan Data</h3>
+      <p>
+        Kamu dapat menghapus semua data Coda kapan pun. Lihat langkah lengkap di halaman
+        <a href="data-deletion.html">Data deletion</a>.
+      </p>
+
+      <h3>Anak-anak</h3>
+      <p>
+        Coda tidak ditujukan untuk anak di bawah 13 tahun dan tidak mengumpulkan data dari anak-anak.
+      </p>
+
+      <h3>Perubahan Kebijakan</h3>
+      <p>
+        Jika ada perubahan material, kami akan memperbarui halaman ini dan memperbarui tanggal efektif.
+      </p>
+
+      <h3>Kontak</h3>
+      <p>
+        Jika ada pertanyaan terkait privasi, hubungi:
+        <br />
+        Email: <a href="mailto:rinacaswatiherlin@gmail.com">rinacaswatiherlin@gmail.com</a>
+      </p>
+
+      <div class="footer">
+        <div>Publisher: <b>idcoda</b></div>
+        <div><small class="muted">Coda • Privacy Policy</small></div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // set default effective date = today
+    const dt = new Date();
+    const fmt = new Intl.DateTimeFormat('id-ID', { day:'2-digit', month:'long', year:'numeric' });
+    document.getElementById("d").textContent = fmt.format(dt);
+  </script>
+</body>
+</html>
